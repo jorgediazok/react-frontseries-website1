@@ -10,7 +10,7 @@ import {
   ArrowRight,
   ArrowForward,
 } from './HeroElements';
-import Button from '../../components/ButtonElement';
+import { Button } from '../../components/ButtonElement';
 import Video from '../../videos/video.mp4';
 
 const Hero = () => {
