@@ -1,9 +1,15 @@
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+//Components
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>first commit</h1>
+      <Router>
+        <Navbar />
+      </Router>
     </div>
   );
 }
