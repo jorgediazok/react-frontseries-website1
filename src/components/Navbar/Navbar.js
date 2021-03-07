@@ -17,9 +17,13 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Tourism</NavLogo>
+          <NavLogo to="/" style={{ marginLeft: '-5px' }}>
+            Tourism
+          </NavLogo>
           <MobileIcon>
-            <FaBars />
+            <FaBars
+              style={{ color: '#fff', marginTop: '25px', fontSize: '26px' }}
+            />
           </MobileIcon>
           <NavMenu>
             <NavItem>
