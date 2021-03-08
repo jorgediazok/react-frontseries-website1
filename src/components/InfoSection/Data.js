@@ -36,9 +36,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Join our community',
   headline: 'Sign Up now in just two simple steps and join us.',
   description:
@@ -46,8 +46,8 @@ export const homeObjThree = {
   buttonLabel: 'Get Started',
   imgStart: true,
   img: require('../../images/image4.svg').default,
-  alt: 'SignUp',
-  dark: true,
-  primary: true,
-  darkText: false,
+  alt: 'Sign Up',
+  dark: false,
+  primary: false,
+  darkText: true,
 };
