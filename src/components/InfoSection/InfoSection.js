@@ -16,7 +16,6 @@ import {
 } from './InfoElements';
 
 import { Button } from '../ButtonElement';
-import img from '../../images/image1.png';
 
 const InfoSection = ({
   lightBg,

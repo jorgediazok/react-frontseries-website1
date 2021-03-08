@@ -6,11 +6,47 @@ export const homeObjOne = {
   topLine: 'A travelers network',
   headline: 'Unlimited access to travellers Database',
   description:
-    'This is a space for travellers from all over the world to connect with each other. To organize meetings, hostings, and even virtual chats. This is a social network created by travelers for travelers.',
+    'A space for travellers from all over the world to connect with each other. Organize meetings, hostings, and virtual chats. A social network created by travelers for travelers.',
   buttonLabel: 'Get Started',
-  imgStart: false,
+  imgStart: true,
   img: require('../../images/image2.svg').default,
   alt: 'Trip',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: 'discover',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Unlimited Access',
+  headline: 'All access free and 100% safe.',
+  description:
+    'Our social network allows you to enter all the sections of our site, leave comments and chat with other travellers. All for free.',
+  buttonLabel: 'Learn More',
+  imgStart: false,
+  img: require('../../images/image3.svg').default,
+  alt: 'Social',
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: 'signup',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Join our community',
+  headline: 'Sign Up now in just two simple steps and join us.',
+  description:
+    'You just need an email to confirm the registration and voilá. You are part of our lovely community of adventurous people.',
+  buttonLabel: 'Get Started',
+  imgStart: true,
+  img: require('../../images/image4.svg').default,
+  alt: 'SignUp',
   dark: true,
   primary: true,
   darkText: false,
