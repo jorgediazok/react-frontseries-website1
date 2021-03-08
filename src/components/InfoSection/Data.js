@@ -51,3 +51,7 @@ export const homeObjThree = {
   primary: false,
   darkText: true,
 };
+
+export const homeObjFour = {
+  id: 'services',
+};
