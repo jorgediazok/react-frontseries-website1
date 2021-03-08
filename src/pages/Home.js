@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Hero from '../components/Hero/Hero';
 import {
   homeObjOne,
@@ -17,10 +17,6 @@ const Home = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-
-  // useEffect(() => {
-  //   window.scroll(0, 140);
-  // }, []);
 
   return (
     <>
