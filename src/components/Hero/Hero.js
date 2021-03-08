@@ -28,7 +28,7 @@ const Hero = () => {
       <HeroContent>
         <HeroH1>Adventures Everywhere</HeroH1>
         <HeroP>
-          Sign Up to Join Our Community of travellers from all over the world.
+          Sign up to join our community of travellers from all over the world.
           We share experiences, tips, and wonderful stories with other
           travelers.
         </HeroP>
